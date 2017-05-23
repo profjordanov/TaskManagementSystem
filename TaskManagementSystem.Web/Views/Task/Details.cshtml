@@ -1,0 +1,74 @@
+﻿@model TaskManagementSystem.Models.EntityModels.TaskModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TaskModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RequiredByDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RequiredByDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TaskDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TaskDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TaskStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TaskStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TaskType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TaskType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NextActionDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NextActionDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
