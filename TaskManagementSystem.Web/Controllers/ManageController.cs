@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using TaskManagementSystem.Web.Models;
+using TaskManagementSystem.Models.ViewModels.Manage;
 
 namespace TaskManagementSystem.Web.Controllers
 {

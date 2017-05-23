@@ -173,9 +173,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -236,7 +233,14 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <ProjectReference Include="..\TaskManagementSystem.Data\TaskManagementSystem.Data.csproj">
+      <Project>{6CEEAD78-7CC7-4359-AF5E-77AEC6040B22}</Project>
+      <Name>TaskManagementSystem.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaskManagementSystem.Models\TaskManagementSystem.Models.csproj">
+      <Project>{E7F9C29C-223D-450D-AFE1-9C758EC3DCFD}</Project>
+      <Name>TaskManagementSystem.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
