@@ -93,6 +93,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BindingModels\AddCommentBm.cs" />
+    <Compile Include="BindingModels\DeleteCommentBm.cs" />
+    <Compile Include="BindingModels\EditCommentBm.cs" />
     <Compile Include="EntityModels\ApplicationUser.cs" />
     <Compile Include="EntityModels\Comment.cs" />
     <Compile Include="EntityModels\TaskModel.cs" />
@@ -109,6 +112,10 @@
     <Compile Include="ViewModels\Account\ResetPasswordViewModel.cs" />
     <Compile Include="ViewModels\Account\SendCodeViewModel.cs" />
     <Compile Include="ViewModels\Account\VerifyCodeViewModel.cs" />
+    <Compile Include="ViewModels\AddCommentTaskVm.cs" />
+    <Compile Include="ViewModels\AllCommentsVm.cs" />
+    <Compile Include="ViewModels\DeleteCommentVm.cs" />
+    <Compile Include="ViewModels\EditCommentVm.cs" />
     <Compile Include="ViewModels\Manage\AddPhoneNumberViewModel.cs" />
     <Compile Include="ViewModels\Manage\ChangePasswordViewModel.cs" />
     <Compile Include="ViewModels\Manage\ConfigureTwoFactorViewModel.cs" />
@@ -120,7 +127,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Attributes\" />
-    <Folder Include="BindingModels\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

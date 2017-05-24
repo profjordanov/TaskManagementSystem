@@ -27,4 +27,3 @@ C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Model
 C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Models\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Models\obj\Debug\TaskManagementSystem.Models.dll
 C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Models\obj\Debug\TaskManagementSystem.Models.pdb
-C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Models\obj\Debug\TaskManagementSystem.Models.csprojResolveAssemblyReference.cache

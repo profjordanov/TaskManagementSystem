@@ -4,15 +4,15 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Dash-board of the Tasks </h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create", new { @class = "btn btn-default" })
 </p>
 <table class="table table-striped">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.User.Email)
+            <p>Assigned To</p>
         </th>
         <th>
             @Html.DisplayNameFor(model => model.CreatedDate)

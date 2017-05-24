@@ -28,8 +28,8 @@ namespace TaskManagementSystem.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Comment>()
-               .HasOptional(anom => anom.TaskModel)
-               .WithMany(planet => planet.Comments)
+               .HasRequired(t => t.TaskModel)
+               .WithMany(c => c.Comments)
                .WillCascadeOnDelete(false);
         }
 

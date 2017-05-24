@@ -44,6 +44,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -168,6 +172,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CommentsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\TaskController.cs" />
@@ -237,6 +242,10 @@
     <Content Include="Views\Task\Details.cshtml" />
     <Content Include="Views\Task\Edit.cshtml" />
     <Content Include="Views\Task\Index.cshtml" />
+    <Content Include="Views\Comments\Add.cshtml" />
+    <Content Include="Views\Comments\All.cshtml" />
+    <Content Include="Views\Comments\Delete.cshtml" />
+    <Content Include="Views\Comments\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TaskManagementSystem.Data\TaskManagementSystem.Data.csproj">
@@ -246,6 +255,10 @@
     <ProjectReference Include="..\TaskManagementSystem.Models\TaskManagementSystem.Models.csproj">
       <Project>{E7F9C29C-223D-450D-AFE1-9C758EC3DCFD}</Project>
       <Name>TaskManagementSystem.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaskManagementSystem.Services\TaskManagementSystem.Services.csproj">
+      <Project>{a9fa4c52-75cf-49b2-94a8-88f1689c3543}</Project>
+      <Name>TaskManagementSystem.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

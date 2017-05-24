@@ -71,3 +71,7 @@ C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\b
 C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\obj\Debug\TaskManagementSystem.Web.dll
 C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\obj\Debug\TaskManagementSystem.Web.pdb
+C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\TaskManagementSystem.Services.dll
+C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\TaskManagementSystem.Services.pdb
+C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\AutoMapper.dll
+C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\AutoMapper.xml
