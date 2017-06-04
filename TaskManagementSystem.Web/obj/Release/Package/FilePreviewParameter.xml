@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="mytaskmanagementsystem" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Jordan\\Documents\\GitHub\\TaskManagementSystem\\TaskManagementSystem\.Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Jordan\\Documents\\GitHub\\TaskManagementSystem\\TaskManagementSystem\.Web\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="TaskManagementSystemContext-Web.config Connection String" description="" value="Data Source=tcp:taskmanagementsystemserver.database.windows.net,1433;Initial Catalog=TaskManagementSystemDB;Persist Security Info=True;User ID=profjordanov@taskmanagementsystemserver.database.windows.net;Password=Fc4b51b3$" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jordan\\Documents\\GitHub\\TaskManagementSystem\\TaskManagementSystem\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TaskManagementSystemContext']/@connectionString" />
+  </parameter>
+</parameters>

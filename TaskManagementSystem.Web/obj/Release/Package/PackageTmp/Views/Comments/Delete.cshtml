@@ -1,0 +1,21 @@
+﻿@model TaskManagementSystem.Models.ViewModels.DeleteCommentVm
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+<h3>Description:  @Model.CommentDescription</h3>
+<h4>Type:  @Model.CommentType</h4>
+<h4>Date Added:  @Model.DateAdded</h4>
+<h4>Reminder Date:  @Model.ReminderDate</h4>
+
+
+
+<form method="post">
+    <input type="number" hidden="hidden" name="CommentId" value="@Model.Id" />
+    <div class="form-group">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+    </div>
+    @Html.ActionLink("Back to the list","All","Comments")
+</form>
+

@@ -18,6 +18,8 @@ namespace TaskManagementSystem.Services
                         configurationExpression.MapFrom(com => com.TaskModel.TaskDescription));
                 expression.CreateMap<AddCommentBm, Comment>();
                 expression.CreateMap<Comment, EditCommentVm>();
+                expression.CreateMap<Comment, DeleteCommentVm>();
+
 
             });
 
