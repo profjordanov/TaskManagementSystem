@@ -22,6 +22,10 @@ namespace TaskManagementSystem.Data
         public DbSet<TaskModel> Tasks { get; set; }
 
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<Apply> Applies { get; set; }
+        public DbSet<JobAd> JobAds { get; set; }
+
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

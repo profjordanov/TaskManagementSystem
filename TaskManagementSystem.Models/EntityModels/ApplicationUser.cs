@@ -10,8 +10,11 @@ namespace TaskManagementSystem.Models.EntityModels
         public ApplicationUser()
         {
             this.Tasks = new HashSet<TaskModel>();
+            this.Applies = new HashSet<Apply>();
+
         }
         public virtual ICollection<TaskModel> Tasks { get; set; }
+        public virtual ICollection<Apply> Applies { get; set; }
 
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)

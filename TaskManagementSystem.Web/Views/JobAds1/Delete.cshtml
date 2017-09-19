@@ -1,0 +1,88 @@
+﻿@model TaskManagementSystem.Models.EntityModels.JobAd
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>JobAd</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Position)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Position)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImageUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentProfile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentProfile)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateOn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreateOn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValidUntil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValidUntil)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsDeleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsDeleted)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

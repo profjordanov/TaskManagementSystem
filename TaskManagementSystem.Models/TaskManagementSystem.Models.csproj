@@ -97,7 +97,9 @@
     <Compile Include="BindingModels\DeleteCommentBm.cs" />
     <Compile Include="BindingModels\EditCommentBm.cs" />
     <Compile Include="EntityModels\ApplicationUser.cs" />
+    <Compile Include="EntityModels\Apply.cs" />
     <Compile Include="EntityModels\Comment.cs" />
+    <Compile Include="EntityModels\JobAd.cs" />
     <Compile Include="EntityModels\TaskModel.cs" />
     <Compile Include="Enums\CommentType.cs" />
     <Compile Include="Enums\TaskStatus .cs" />
