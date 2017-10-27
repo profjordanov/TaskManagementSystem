@@ -116,3 +116,8 @@ C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\b
 C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\ru\System.Spatial.resources.dll
 C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\Glimpse.Ado.dll
+C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\Glimpse.Core.dll
+C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\Glimpse.EF6.dll
+C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\Glimpse.AspNet.dll
+C:\Users\Jordan\Documents\GitHub\TaskManagementSystem\TaskManagementSystem.Web\bin\Glimpse.Mvc5.dll
