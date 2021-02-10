@@ -1,13 +1,15 @@
-# TaskManagementSystem
+# Task Management System
 
-1.	Task  – A Task has the following attributes
-	Created Date
-	Required by Date
-	Task Description
-	Task Status - Limited list
-	Task Type - Limited list
-	Assigned to – Create a list of users – This can be either non Maintainable or Maintainable
-	Next Action Date
+Structured as:
+
+1.	A Task - has the following attributes
+-	Created Date
+-	Required by Date
+-	Task Description
+-	Task Status - Limited list
+-	Task Type - Limited list
+-	Assigned to – Create a list of users – This can be either non Maintainable or Maintainable
+-	Next Action Date
 i.	This should be linked from the comments reminder Date if available
 2.	Comments – It should be possible to add comments to a task which has the following attributes
 	Date Added
